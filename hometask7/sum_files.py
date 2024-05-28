@@ -1,5 +1,4 @@
 '''
-Задание №3
 ✔ Напишите функцию, которая открывает на чтение созданные
 в прошлых задачах файлы с числами и именами.
 ✔ Перемножьте пары чисел. В новый файл сохраните
@@ -39,7 +38,3 @@ def sum_files(f1_name: Path, f2_name: Path, res_file: Path) -> None:
             mult = int(num_int) * float(num_fl)
             f_res.write(f'{name.islower()} {-mult}\n') if mult < 0 \
                 else f_res.write(f'{name.isupper()} {int(mult)}\n') if mult > 0 else 42
-
-
-if __name__ == '__main__':
-    sum_files(Path('names.txt'), Path('numbers.txt'), Path('results.txt'))

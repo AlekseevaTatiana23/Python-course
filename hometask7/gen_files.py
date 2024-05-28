@@ -1,5 +1,4 @@
 '''
-Задание №4
 ✔ Создайте функцию, которая создаёт файлы с указанным расширением.
 Функция принимает следующие параметры:
 ✔ расширение
@@ -23,6 +22,3 @@ def gen_files(ext:str, min_name: int=6, max_name:int = 30, min_size:int=256,
         data = bytes(randint(0, 255) for _ in range(randint(min_size, max_size)))
         with open(f'{name}.{ext}', 'wb') as f:
             f.write(data)
-
-if __name__ == '__main__':
-    gen_files('txt', file_count=1)
