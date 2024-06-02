@@ -1,0 +1,20 @@
+{
+    "C:\\Users\\user\\PycharmProjects\\Python-course": {
+        "object_type": "Directory",
+        "object_name": "hometask8",
+        "object_size": 32376,
+        "parant_directory": "Python-course"
+    },
+    "C:\\Users\\user\\PycharmProjects\\Python-course\\hometask8\\": {
+        "object_type": "File",
+        "object_name": "task1.py",
+        "object_size": 4460,
+        "parant_directory": ""
+    },
+    "C:\\Users\\user\\PycharmProjects\\Python-course\\hometask8\\File_manager": {
+        "object_type": "File",
+        "object_name": "txt_to_json.py",
+        "object_size": 911,
+        "parant_directory": "File_manager"
+    }
+}
